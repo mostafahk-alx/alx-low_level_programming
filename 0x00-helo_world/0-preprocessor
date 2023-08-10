@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if the C file name is provided as an argument
+if [ -z "$CFILE" ]; then
+    echo "Please provide the C file name in the variable \$CFILE"
+    exit 1
+fi
+
+# Check if the C file exists
+if [ ! -f "$CFILE" ]; then
+    echo "C file  not found"
+    exit 1
+fi
+
+# Run the preprocessor and save the result to c file
+gcc -E "$CFILE" -o c
+
+echo "Preprocessed output saved to c"
+
