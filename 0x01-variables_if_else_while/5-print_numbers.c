@@ -14,7 +14,7 @@ int main(void)
 
 	while (number <= 9)
 	{
-		putchar(number + '0'); /* Convert the number to its corresponding character */
+		putchar(number + '0'); /* Convert the number to its  character */
 		number++;
 	}
 
