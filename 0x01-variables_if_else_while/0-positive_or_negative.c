@@ -38,5 +38,4 @@ int main(void)
     	}
 
     	return (0);
- 17:01:34 up 37 days, 13:11,  0 users,  load average: 0.76, 0.93, 0.88
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+}
