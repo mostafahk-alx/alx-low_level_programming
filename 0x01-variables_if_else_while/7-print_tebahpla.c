@@ -10,18 +10,18 @@
  */
 int main(void)
 {
-	char letter = 'z'; // Start with the lowercase 'z'
+	char letter = 'z'; /* Start with the lowercase 'z' */
 
-	// Print the alphabet in reverse using a loop
+	/* Print the alphabet in reverse using a loop */
 	while (letter >= 'a')
 	{
 		putchar(letter);
-		letter--; // Move to the previous letter
+		letter--; /* Move to the previous letter */
 	}
 
-	// Print a new line after the alphabet
+	/* Print a new line after the alphabet */
 	putchar('\n');
 
-	return (0); // Success
+	return (0); /* Success */
 }
 
