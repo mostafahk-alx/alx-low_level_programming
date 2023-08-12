@@ -10,17 +10,15 @@
  */
 int main(void)
 {
-    /* Start with the lowercase 'a' */
-    char letter = 'a';
+	char letter = 'a';
 
-    /* Print the alphabet using a loop */
-    while (letter <= 'z') {
-        putchar(letter);
-        letter++; /* Move to the next letter */
-    }
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
+	putchar('\n');
 
-    /* Print a new line after the alphabet */
-    putchar('\n');
-
-    return 0; /* Success */
+	return (0);
 }
+
