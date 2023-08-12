@@ -20,5 +20,5 @@ int main(void)
 
 	putchar('\n'); /* Print a new line after all digits */
 
-	return 0; /* Success */
+	return (0); /* Success */
 }
