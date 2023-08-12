@@ -20,22 +20,18 @@ int main(void)
 	/* Generate a random number between -RAND_MAX/2 and RAND_MAX/2 */
     	n = rand() - RAND_MAX / 2;
 
-    	/* Print the generated number */
-    	printf("The number %d is ", n);
-
     	/* Check whether the number is positive, zero, or negative */
     	if (n > 0)
     	{
-        	printf("positive\n");
+        	printf("%d is positive\n", n);
    	}
    	 else if (n == 0)
     	{
-        	printf("zero\n");
+        	printf("0 is zero\n");
     	}
     	else
     	{
-        	printf("negative\n");
-    	}
-
+        	printf("%d is negative\n",n);
+   	}	
     	return (0);
 }
