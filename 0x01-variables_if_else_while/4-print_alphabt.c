@@ -10,21 +10,21 @@
  */
 int main(void)
 {
-    /* Start with the lowercase 'a' */
-    char letter = 'a';
+	/* Start with the lowercase 'a' */
+	char letter = 'a';
 
-    /* Print the alphabet while excluding 'q' and 'e' */
-    while (letter <= 'z')
-    {
-        if (letter != 'e' && letter != 'q')
-        {
-            putchar(letter);
-        }
-        letter++;
-    }
+	/* Print the alphabet while excluding 'q' and 'e' */
+	while (letter <= 'z')
+	{
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar(letter);
+		}
+		letter++;
+	}
 
-    /* Print a new line after the alphabet */
-    putchar('\n');
+	/* Print a new line after the alphabet */
+	putchar('\n');
 
-    return (0); /* Success */
+	return (0); /* Success */
 }
