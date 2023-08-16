@@ -7,7 +7,7 @@
  *
  * Return: The sum of a and b
  *
- * Description: This function takes two integers as input and returns their sum.
+ * Description: This function takes two ints as input and returns their sum.
  */
 int add(int a, int b)
 {
