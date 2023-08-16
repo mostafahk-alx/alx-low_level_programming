@@ -6,7 +6,7 @@
  *
  * Return: The value of the last digit
  *
- * Description: This function calculates and prints the last digit of the given number.
+ * Description: This function calculates and prints the last digit of num
  *              It then returns the value of the last digit.
  */
 int print_last_digit(int n)
