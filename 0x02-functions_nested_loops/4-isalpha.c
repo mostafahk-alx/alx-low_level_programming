@@ -11,10 +11,10 @@ int _isalpha(int c)
 	/* Check if c is a letter (lowercase or uppercase) */
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		return 1; /* c is an alphabetic character */
+		return (1); /* c is an alphabetic character */
 	}
 	else
 	{
-		return 0; /* c is not an alphabetic character */
+		return (0); /* c is not an alphabetic character */
 	}
 }
