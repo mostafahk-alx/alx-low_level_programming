@@ -11,8 +11,8 @@ int main(void)
 {
 	char text[] = "_putchar\n";
 	int length = sizeof(text)-1;
-
-	for(int i = 0; i<length; i++)
+	int i;
+	for(i = 0; i<length; i++)
 	{
 		_putchar(text[i]);
 	}
