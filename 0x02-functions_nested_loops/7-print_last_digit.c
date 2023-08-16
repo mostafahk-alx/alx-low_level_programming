@@ -5,6 +5,9 @@
  * @n: The number to extract the last digit from
  *
  * Return: The value of the last digit
+ *
+ * Description: This function calculates and prints the last digit of the given number.
+ *              It then returns the value of the last digit.
  */
 int print_last_digit(int n)
 {
@@ -22,5 +25,5 @@ int print_last_digit(int n)
     /* Print the last digit */
     _putchar(last_digit + '0');
 
-    return last_digit;
+    return (last_digit);
 }
