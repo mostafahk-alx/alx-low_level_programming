@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-    char text[] = "_putchar\n";
-    int length = sizeof(text) - 1;
-    int i;
+	char text[] = "_putchar\n";
+	int length = sizeof(text) - 1;
+	int i;
 
-    for (i = 0; i < length; i++)
-    {
-        _putchar(text[i]);
-    }
+	for (i = 0; i < length; i++)
+	{
+		_putchar(text[i]);
+	}
 
-    return (0);
+	return (0);
 }
 
