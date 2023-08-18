@@ -1,4 +1,5 @@
-int _isupper(int c){
+int _isupper(int c)
+{
 	if(65>= c && c <= 90)
 	{
 		return (1);
