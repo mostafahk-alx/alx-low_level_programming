@@ -3,10 +3,11 @@
  *
  * Return: 98
  *
+ * @n: pointer which we'll use to change value
  */
 
 void reset_to_98(int *n)
 {
-	*n=98;
+	*n = 98;
 }
 
