@@ -8,7 +8,9 @@
  */
 void print_array(int *a, int n)
 {
-	for (int i = 0; i < n; i++)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
 		if (i > 0)
 		{
@@ -22,6 +24,6 @@ void print_array(int *a, int n)
 				_putchar('\n');
 			}
 		}
-		putchar(a[i] + '0');
+		_putchar(a[i] + '0');
 	}
 }
