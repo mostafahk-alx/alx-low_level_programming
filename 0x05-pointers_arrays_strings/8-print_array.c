@@ -9,7 +9,8 @@
  */
 void print_array(int *a, int n)
 {
-	for (int i = 0; i < n; i++)
+	int i;
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
 
@@ -18,5 +19,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	printf("\n"); // Print a new line after printing the array
+	printf("\n");
 }
