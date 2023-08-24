@@ -11,25 +11,25 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    char *original_dest = dest;  /* Save the original destination pointer */
+	/* Save the original destination pointer */
+	char *original_dest = dest;
 
-    /* Move dest pointer to the end of the string */
-    while (*dest != '\0')
-    {
-        dest++;
-    }
+	/* Move dest pointer to the end of the string */
+	while (*dest != '\0')
+	{
+		dest++;
+	}
 
-    /* Copy characters from src to dest */
-    while (*src != '\0')
-    {
-        *dest = *src;
-        dest++;
-        src++;
-    }
+	/* Copy characters from src to dest */
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
 
-    /* Add a null-terminating byte */
-    *dest = '\0';
+	/* Add a null-terminating byte */
+	*dest = '\0';
 
-    return (original_dest);  /* Return the pointer to the concatenated string */
+	return (original_dest); /* Return the pointer to the concatenated string */
 }
-
